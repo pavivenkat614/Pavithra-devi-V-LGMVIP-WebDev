@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, iniyial-scale=1.0">
+    <link rel="stylesheet" href="style.css"   
+    <title>food</title>
+    <!-- <style>
+        .checked {
+          color: orange;
+        }
+        </style> -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="path"></div>
+            <ul>
+                <li><a href="#" class = 'home'>Home</a></li>
+                <li><a href="#" class = 'services'>Services</a></li>
+                <li><a href="#" class = 'contact'>Contact</a></li>
+                <li><a href="#" class = 'aboutus'>About us</a></li>  
+            </ul>
+            <div class="thumbnail">
+                <li><img src="main1.jpg" onclick="big('main1.jpg');path('orange')"></li>
+                <li><img src="main2.jpg" onclick="big('main2.jpg');path('powderblue')"></li>
+                <li><img src="main3.jpg" onclick="big('main3.jpg');path('brown')"></li>
+            </div>
+            <div class="big-img">
+                <img src="main.jpg" class="big">
+            </div>    
+            <div class="content">
+                <p><b>Lets Eat</b></p>
+                <h1>For Food Lovers!</h1>
+            </div>
+        </div>
+        <div class='formoutline'>
+     <form style="text-align: center;background-color:palegoldenrod;background-image: url('hotel.jpg');background-repeat: no-repeat">
+     <div>  
+         <style>input:text{outline: none;}</style>
+        <legend style="font-size: large;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:maroon;">Register Here to buy Sumathi foods!</legend>  
+        <label style="color:maroon ;">Enter your full name</label><br>  
+        <input type="text" name="name"><br>  
+         <label style="color:maroon ;">Enter your email</label><br>  
+         <input type="email" name="email"><br>  
+         <label style="color: maroon;">Enter your password</label><br>  
+         <input type="password" name="pass"><br>  
+         <label style="color: maroon;">confirm your password</label><br>  
+         <input type="password" name="pass"><br>  
+         <br><label style="color:maroon;">Enter your gender</label><br>  
+         <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+         <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+         <input type="radio" id="gender" name="gender" value="others"/>others <br/>   
+         <br>Enter Your Address</br>  
+         <textarea></textarea></br>  
+         <input type="submit" value="sign-up">  
+     </div>  
+     </form></div>
+     <!-- <div class ="starratingdiv">
+     <h2 >Star Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></div> -->
+<div class='footer'>
+    <footer>
+         
+        <a href=
+"#" class='customercare'>Customer Care</a>|
+        <a href=
+"#" class='privacypolicy'>Privacy Policy</a>|
+        <a href=
+"#" class='career'>Careers</a>
+     
+ 
+<p>@Sumathi foods, Some rights reserved</p>
+
+ 
+</footer>
+</div>
+ </body>  
+ 
+
+
+   
+<script>
+    function big(img){
+        document.querySelector('.big').src=img;
+    }
+    function path(color){
+        const path=document.querySelector('.path');
+        path.style.background=color;
+    }
+</script>
+</html>
