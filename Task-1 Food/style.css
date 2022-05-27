@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:100%;
+    height:606px;
+    background:palegoldenrod;
+}
+ul{
+    position:absolute;
+    top:5%;
+    right:5%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:70px;
+}
+ul li a{
+    text-decoration:none ;
+    font-family:sans-serif;
+    font-weight:600;
+    color:maroon;
+}
+.thumbnail {
+    padding-top: 7%;
+}
+.thumbnail li{
+    list-style: none;
+    position:relative;
+    margin-top:50px;
+}
+
+.thumbnail img{
+    display: block;
+    max-width: 102px;
+}
+.thumbnail img:hover{
+    transform:translateX(30px);
+    transition: 0.5s;
+}
+.big-img img{
+    position: absolute;
+    left:35%;
+    top:40%;
+    max-width: 700px;
+    max-height: 300px;
+    
+}
+.content{
+    position: absolute;
+    cursor: pointer;
+    max-width: 50%;
+    right:50%;
+    top:20%;
+}
+.path{
+    position: absolute;
+    width:100%;
+    height:100vh;
+    background: #e5e5e5;
+    clip-path:ellipse(100px at left);
+
+}
+.formoutline{
+    padding-top:20px;
+    background:palegoldenrod;
+    color:maroon;
+}
+
+.footer{
+    background:palegoldenrod;
+    position:absolute;
+    text-align:center;
+    width:100%;
+    color:maroon
+}
+.customercare:hover
+{
+    color:green;
+}
+.privacypolicy:hover
+{
+    color:green;
+}
+
+.career:hover
+{
+    color:green;
+}
+.home:hover
+{
+    color:white;
+}
+.services:hover
+{
+    color:white;
+}
+.contact:hover
+{
+    color:white;
+}
+.aboutus:hover
+{
+    color:white;
+}
+.bg {
+    height: 50%;
+}
